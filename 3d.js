@@ -1,3 +1,5 @@
+// https://wiki.scratch.mit.edu/wiki/3D_Games#Rotation for rotational vector formulas
+
 var x;
 var y;
 var z;
