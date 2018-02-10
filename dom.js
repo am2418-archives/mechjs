@@ -11,9 +11,9 @@ changeHTML: function(html,element){
 element.innerHTML=html;
 },
 getAttribute: function(element,attribute) {
-return eval("element."+attribute);
+return element[attribute];
 },
 changeAttribute: function(element,attribute,param) {
-eval("element."+attribute+"=param");
+element[attribute]=param;
 }
 };
